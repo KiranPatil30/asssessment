@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.18" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Login Functionality" name="Valid user logs in" time="0.02">
+<system-out><![CDATA[
+Given the user enters username "user1" and password "pass1".................passed
+When the user logs in.......................................................passed
+Then the user should be logged in successfully..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login Functionality" name="Invalid user logs in" time="0.003">
+<system-out><![CDATA[
+Given the user enters username "wrong" and password "wrong".................passed
+When the user logs in.......................................................passed
+Then the user should not be logged in.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

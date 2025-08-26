@@ -1,0 +1,39 @@
+1. Junit primarily used for the Unit testing in java, 
+
+2. @TEst annotation is used to indicate a test method in  Junit5
+
+3. B - @BeforeEach annotation in used for the runs before each test method
+
+4. assertEquals() methods is used to compare two values are equal or not
+
+5. B - @AfterEach annotation used for the runs after each test methods
+
+6. if an assertion fails in a Junit tests than test fails
+
+7. Junit 5 introduced the   org.junit.jupiter package
+
+8. @BeforeAll annotation JUnit 5 runs only once before all tests in a class 
+
+9. @Disabled annotation is used for the skip the test method 
+
+10. assertTrue mehod check that a condition is true otherwise return false
+
+11. Assertions contains the static assertion methods in Junit5
+
+12. @PreTest is not a valid Junit annotations , @TEst , @BeforeEach, @AfterAll this all are valid annotation
+
+13. @Suite annotations is used to group related test classes together and execute them
+
+14. @AfterAll annotation indicate that Runs onces after all test method 
+
+15. assertThrows() - verify that a specific exception is thrown during execution block of code 
+
+16. using JunitCore Class you run the JUnit tests from the command line
+
+17.  @Display() is used to give a test method a custom name to improve readability
+
+18. @ParameterizedTest annotation  create parameterized tests in JUnit 5 
+
+19 Imporve code reliability is a main benefit of using unit tests
+
+20 assertFalse(list.isEmpty()) checks that the list is not empty

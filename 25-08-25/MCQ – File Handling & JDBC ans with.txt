@@ -1,0 +1,106 @@
+MCQ – File Handling & JDBC ans with explnation
+
+1. FileReader is used to read data from a file, FileOutputStream and FileWriter are used for writing, FileInputStream is for reading bytes
+
+2. FileWriter class is used to write data into  a file
+
+3. readLine()  method is used to read a single character from a FileReader
+
+4. FileRequest is not a  class for file handling
+
+5. File.exists() method checks if the file exists or not
+
+6. char is  the return type of read() method in FileReader
+
+7. File operations can throw IOException - 
+
+8. craneflies() is used to create a new file 
+
+9. File handling in Java is part of java.io Package 
+
+10. To read text efficiently is the purpose of BufferedReader
+
+11. file.close() method is used to close a file
+
+12. FileWriter writes data in  Character form
+
+13. 8192 bytes is the default buffer size for BufferedReader
+
+14. readLine() is a method of BufferedReader that reads a whole line of text until a line break or end of file
+
+15. File.length() return - C. File size in bytes
+
+16. try-catch is used to handle file exeptions
+
+17. FileOutputStream is used to write binary data 
+
+18. RandomAccessFile allows you to read from and write to a file at any position 
+
+19. delete() method is used to delete a file
+
+20.  flush() - clears the stream buffer
+ 
+21.  DataOutputStream - stream handles primitive data types
+
+22. IOException is a checked excpetion and rest all are unchecked exception
+
+23. ObjectOutputStream class is used to serialize an object
+
+24. ObjectInputStream class is used to deserialize an object
+
+25. isDirectory() - method is used to check if it is a directory
+
+
+JDBC-------------------------------------------------------------------
+
+26. JDBC - Java Database Connectivity
+
+27. java.sql - package contains JDBC classes
+
+28. Statement interface is used to execute SQL queries
+
+29. DriverManager is used for the manage JDBC drivers
+
+30. Class.forName() - is used to load a driver
+
+31. getConnection() - establishes a connection to the database
+
+32. executeQuery() excute a sql selecte query and executeUpdate() is a used for update, delete, insert
+
+33. executeUpdate() is used for INSERT, UPDATE or DELETE
+
+34. ResultSet is the return type of excuteQuery()
+
+35. ResultSet is  Object holding result of query whaterever select query return
+
+36. Connection interface in JDBC provides methods for transaction management such as commit, rollback
+
+37. setAutoCommit(false) - we can turn off autocommit explicitly
+
+38. commit()- is used to commit a transaction
+
+39. rollback() - is used to rollback a transaction which means undo
+
+40. B. Use PreparedStatement - to prevent SQL injection
+
+41. PreparedStatement - is a sub - interface of statement
+
+42.  setInt() -  in PreparedStatement is used to set integer value
+
+43. next() - Moves to next row using loop 
+
+44. JDBC driver -  Interface to connect Java to DB
+
+45. Type-4 JDBC drivers are called Pure Java drivers.
+
+46. 4 typs of JDBC drivers are there 
+
+47.  . close() is used to close a connection
+
+48. Yes we excute multiple querue in a Statement Objuect
+
+49. Type-2 JDBC drivers are called Native-API drivers.
+
+50 Type-3 drivers are Network Protocol drivers it best suited for web-based application
+
+

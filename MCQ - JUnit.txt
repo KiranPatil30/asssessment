@@ -1,0 +1,144 @@
+MCQ - JUnit
+1. What is JUnit primarily used for?
+A. GUI Design
+B. Unit Testing
+C. Database Connectivity
+D. Web Development
+B
+
+2. Which annotation is used to indicate a test method in JUnit 5?
+A. @TestCase
+B. @RunWith
+C. @Test
+D. @Before
+C
+
+3. What does the @BeforeEach annotation do in JUnit 5?
+A. Runs once before all tests
+B. Runs before each test method
+C. Runs after each test method
+D. Runs only if a test fails
+
+B
+
+4. Which of the following methods is used to assert that two values are equal in JUnit?
+A. assertTrue()
+B. assertNotNull()
+C. assertEquals()
+D. assertSame()
+C
+
+5. What is the purpose of the @AfterEach annotation?
+A. Runs after all tests
+B. Runs after each test method
+C. Runs before each test method
+D. Runs before all tests
+B
+
+
+6. What will happen if an assertion fails in a JUnit test?
+A. The program exits
+B. An exception is thrown and the test stops
+C. The test fails
+D. Nothing happens
+C
+
+7. Which of the following JUnit versions introduced the org.junit.jupiter package?
+A. JUnit 3
+B. JUnit 4
+C. JUnit 5
+D. JUnit 6
+
+C
+8. Which annotation runs only once before all tests in a class?
+A. @BeforeEach
+B. @BeforeAll
+C. @BeforeClass
+D. @Init
+C
+
+9. What does the @Disabled annotation do?
+A. Skips the test
+B. Runs the test multiple times
+C. Runs the test in a separate thread
+D. Makes the test private
+A
+
+10. Which method checks that a condition is true?
+A. assertNull()
+B. assertTrue()
+C. assertEquals()
+D. assertFalse()
+B
+
+11. Which class contains static assertion methods in JUnit 5?
+A. Assert
+B. Assertions
+C. TestCase
+D. JUnitCore
+B
+
+12. Which of these is NOT a valid JUnit annotation?
+A. @Test
+B. @BeforeEach
+C. @PreTest
+D. @AfterAll
+C
+
+13. What is used to group related test classes in JUnit 5?
+A. @Category
+B. @Nested
+C. @Suite
+D. @TestGroup
+C
+
+
+14. What does the @AfterAll annotation signify?
+A. Run before each test
+B. Run after each test
+C. Run once after all test methods
+D. Run only if tests pass
+C
+
+15. What does assertThrows() do in JUnit 5?
+A. Ignores the test
+B. Expects an exception to be thrown
+C. Prevents exception from being thrown
+D. Catches and logs exception silently
+
+
+16. How can you run JUnit tests from the command line?
+A. java TestRunner
+B. Using JUnitCore class
+C. javac Test.java
+D. java JUnitMain
+A
+
+
+17. Which JUnit annotation is used to provide a custom display name for test methods?
+A. @Display
+B. @DisplayName
+C. @Name
+D. @ShowName
+A
+
+18. Which annotation would be used to create parameterized tests in JUnit 5?
+A. @ParameterizedTest
+B. @TestParams
+C. @ParamTest
+D. @LoopTest
+A
+
+19. What is the main benefit of using unit tests?
+A. Increases runtime
+B. Slows down development
+C. Improves code reliability
+D. Reduces code reusability
+
+
+20. In JUnit 5, what is the correct way to assert that a list is not empty?
+A. assertNull(list)
+B. assertEquals(0, list.size())
+C. assertTrue(list == null)
+D. assertFalse(list.isEmpty())
+

@@ -1,0 +1,7 @@
+Feature: User validation with list
+ Scenario: Validate multiple usernames
+   Given the following usernames:
+     | King |
+     | Martin    |
+     | Scott |
+   When I process the usernames

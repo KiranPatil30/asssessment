@@ -1,0 +1,352 @@
+MCQ – File Handling & JDBC
+File Handling in Java
+1. Which class is used to read data from a file?
+A. FileReader
+B. FileInputStream
+C. FileOutputStream
+D. FileWriter
+A
+
+2. Which class is used to write data into a file?
+A. FileReader
+B. FileInputStream
+C. FileWriter
+D. FileScanner
+C
+
+3. Which method is used to read a single character from a FileReader?
+A. get()
+B. readLine()
+C. read()
+D. nextChar()
+B
+
+4. Which of the following is not a class for file handling?
+A. File
+B. FileReader
+C. FileWriter
+D. FileRequest
+D
+
+5. What does the File.exists() method do?
+A. Creates a file
+B. Checks if the file exists
+C. Deletes the file
+D. Opens the file
+B
+
+6. What is the return type of read() method in FileReader?
+A. char
+B. byte
+C. int
+D. String
+A
+
+
+7. Which exception must be handled while working with files in Java?
+A. ArrayIndexOutOfBoundsException
+B. ArithmeticException
+C. IOException
+D. NullPointerException
+C
+
+8. Which of the following is used to create a new file?
+A. makeFile()
+B. init()
+C. createNewFile()
+D. newFile()
+C
+
+9. File handling in Java is part of which package?
+A. java.lang
+B. java.util
+C. java.io
+D. java.file
+C
+
+10. What is the purpose of BufferedReader?
+A. To write into a file
+B. To compress file
+C. To read text efficiently
+D. To encrypt file
+C
+
+11. Which method is used to close a file?
+A. finish()
+B. end()
+C. close()
+D. stop()
+C
+
+
+12. FileWriter writes data in:
+A. Binary form
+B. Character form
+C. Object form
+D. Byte form
+B
+
+13. What is the default buffer size for BufferedReader?
+A. 512
+B. 8192
+C. 
+D. 4096
+
+
+14. Which method reads a line from the file?
+A. nextLine()
+B. readLine()
+C. read()
+D. input()
+B
+
+15. What does File.length() return?
+A. Number of lines
+B. Number of characters
+C. File size in bytes
+D. File size in KB
+C
+
+16. Which keyword is used to handle file exceptions?
+A. throw
+B. throws
+C. try-catch
+D. finalize
+C
+
+17. To write binary data, we should use:
+A. FileOutputStream
+B. FileReader
+C. BufferedWriter
+D. PrintWriter
+
+
+18. Which class allows both reading and writing to a random access file?
+A. File
+B. FileWriter
+C. RandomAccessFile
+D. FileInputStream
+
+
+19. Which method is used to delete a file?
+A. remove()
+B. delete()
+C. erase()
+D. destroy()
+B
+
+
+20. What does flush() do in FileWriter?
+A. Closes the file
+B. Clears stream buffer
+C. Deletes file
+D. Reads file
+
+
+21. Which stream handles primitive data types?
+A. BufferedStream
+B. ObjectStream
+C. DataOutputStream
+D. PrintStream
+
+
+22. Which of the following is a checked exception?
+A. NullPointerException
+B. IOException
+C. ArithmeticException
+D. NumberFormatException
+B
+
+23. Which class is used to serialize an object?
+A. File
+B. FileWriter
+C. ObjectOutputStream
+D. BufferedWriter
+
+
+24. Which class is used to deserialize an object?
+A. ObjectWriter
+B. ObjectInputStream
+C. FileInputStream
+D. StreamReader
+
+
+25. Which method is used to check if it is a directory?
+A. isFile()
+B. isOpen()
+C. isDirectory()
+D. isClosed()
+
+
+
+JDBC (Java Database Connectivity)
+26. What does JDBC stand for?
+A. Java Database Class
+B. Java Data Connectivity
+C. Java Database Connectivity
+D. Java Direct Connectivity
+
+
+27. Which package contains JDBC classes?
+A. java.util
+B. java.sql
+C. java.jdbc
+D. javax.jdbc
+
+
+28. Which interface is used to execute SQL queries?
+A. SQLExecutor
+B. SQLStatement
+C. Statement
+D. Command
+
+
+29. What is the purpose of DriverManager?
+A. Create connection
+B. Manage JDBC drivers
+C. Execute SQL
+D. Create tables
+
+
+30. Which method is used to load a driver?
+A. Class.forName()
+B. loadDriver()
+C. getDriver()
+D. connect()
+
+
+31. Which method establishes a connection to the database?
+A. getDriver()
+B. getConnection()
+C. connect()
+D. open()
+
+
+32. Which of the following executes a SQL SELECT query?
+A. executeUpdate()
+B. executeQuery()
+C. runQuery()
+D. fetch()
+
+
+33. Which method is used for INSERT, UPDATE or DELETE?
+A. executeQuery()
+B. executeUpdate()
+C. updateData()
+D. changeData()
+
+34. What is the return type of executeQuery()?
+A. int
+B. ResultSet
+C. String
+D. Object
+
+
+35. What is ResultSet?
+A. Interface
+B. Object holding result of query
+C. SQL statement
+D. Driver
+
+B
+
+36. Which interface provides methods for transaction management?
+A. Connection
+B. Statement
+C. Driver
+D. SQLManager
+
+
+37. What does setAutoCommit(false) do?
+A. Commits automatically
+B. Disables JDBC
+C. Manual transaction management
+D. Starts new connection
+
+
+38. Which method is used to commit a transaction?
+A. save()
+B. commit()
+C. apply()
+D. execute()
+
+
+39. Which method is used to rollback a transaction?
+A. revert()
+B. undo()
+C. rollback()
+D. clear()
+
+
+40. How to prevent SQL injection?
+A. Use Statement
+B. Use PreparedStatement
+C. Use ResultSet
+D. Use queryFilter()
+
+
+41. Which of these is a sub-interface of Statement?
+A. PreparedStatement
+B. ResultSet
+C. Connection
+D. SQLQuery
+
+
+42. Which method in PreparedStatement is used to set integer value?
+A. setIntValue()
+B. setInt()
+C. bindInt()
+D. setInteger()
+
+
+43. What does next() in ResultSet do?
+A. Goes to first row
+B. Moves to next row
+C. Moves to last row
+D. Closes result
+
+
+44. What is JDBC driver?
+A. Java library
+B. Interface to connect Java to DB
+C. API
+D. Browser
+
+
+45. Which type of JDBC driver is Pure Java driver?
+A. Type-1
+B. Type-4
+C. Type-2
+D. Type-3
+
+
+46. How many types of JDBC drivers are there?
+A. 2
+B. 3
+C. 4
+D. 5
+47. Which method is used to close a Connection?
+A. exit()
+B. close()
+C. shut()
+D. destroy()
+
+48. Can we execute multiple queries in a Statement object?
+A. Yes
+B. No
+C. Only INSERT
+D. Only SELECT
+
+
+49. Which JDBC driver type translates JDBC calls to native calls?
+A. Type-1
+B. Type-2
+C. Type-3
+D. Type-4
+
+
+50. Which JDBC driver is best suited for web-based applications?
+A. Type-1
+B. Type-2
+C. Type-3
+D. Type-4
